@@ -31,7 +31,7 @@
 │    └── SmartEmailAssistantApplication.java
 └── src/main/resources
      └── application.yml
-
+```
 ### Frontend Structure
 ```text
 └── EMAIL ASSISTANT EXTENSION
@@ -39,14 +39,14 @@
      ├── content.js
      ├── popup.html
      └── popup.js
-
+```
 ## ⚙️ Local Setup Instructions
 
 ### 1. Backend Configuration
 
 1. **Clone the repository** to your local machine:
    ```bash
-   git clone [https://github.com/your-username/smart-email-assistant.git](https://github.com/your-username/smart-email-assistant.git)
+   git clone [https://github.com/your-username/smart-email-assistant.git](https://github.com/your-username/smart-email-assistant.git) ```
 
 2. Open the project in IntelliJ IDEA.
 
@@ -56,7 +56,7 @@
      api:
        key: YOUR_API_KEY_HERE
        url: [https://generativelanguage.googleapis.com](https://generativelanguage.googleapis.com)
-
+ ```
 4. Run the application to start the local server on http://localhost:8080.
 
 ### 2. Extension Installation
