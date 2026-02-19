@@ -1,0 +1,16 @@
+# --- IDE & System Files ---
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+
+# --- Java/Backend (Global) ---
+**/target/
+**/.mvn/
+**/bin/
+*.class
+
+# --- Logs & Temp ---
+*.log
+temp/

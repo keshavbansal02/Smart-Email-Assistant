@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Smart Email Assistant",
+  "version": "1.1",
+  "description": "Generate AI email replies directly in Gmail",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "host_permissions": ["https://mail.google.com/*", "http://localhost:8080/*"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://mail.google.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}

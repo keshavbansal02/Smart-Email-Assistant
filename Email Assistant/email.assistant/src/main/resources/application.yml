@@ -1,0 +1,8 @@
+spring :
+  application:
+    name : Smart Email Assistant
+
+gemini:
+  api:
+    key : ${GEMINI_API_KEY}
+    url : https://generativelanguage.googleapis.com/
